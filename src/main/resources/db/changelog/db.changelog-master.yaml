@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/migrations/001-add-user-and-authorities-table.xml
+  - include:
+      file: db/changelog/migrations/002-user-verification-tokens-table.xml
