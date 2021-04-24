@@ -31,7 +31,10 @@ public class User extends BaseAuditableModel {
 
     private String email;
 
-    @OneToMany(mappedBy = "user")
+    @Column(name = "is_enabled")
+    private boolean isEnabled;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)
     private List<Authority> authorities;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)

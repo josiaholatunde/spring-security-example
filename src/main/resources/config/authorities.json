@@ -1,0 +1,8 @@
+[
+  {
+    "role_name": "NORMAL_USER",
+    "authorities": [
+      "ROLE_USER"
+    ]
+  }
+]
