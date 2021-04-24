@@ -15,6 +15,7 @@
             <column name="password" type="varchar(500)">
                 <constraints nullable="false" />
             </column>
+            <column name="is_enabled" type="boolean" />
             <column name="created_at" type="datetime" />
             <column name="updated_at" type="datetime" />
         </createTable>
